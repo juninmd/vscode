@@ -1,0 +1,37 @@
+# Supressoes por fingerprint - triagem manual registrada no PR de seguranca.
+
+# Fork de microsoft/vscode. Os achados estao em codigo do upstream
+# (identificadores de telemetria, chaves de i18n e nomes de pacotes .internal),
+# nao em alteracoes deste fork. Varredura feita em HEAD (clone shallow).
+
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/copilot/package.json:generic-api-key:8
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/copilot/package.json:generic-api-key:9
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/copilot/src/extension/completions-core/vscode-node/extension/src/panelShared/languages/javaScriptReact.tmLanguage.ts:juninmd-internal-hostname:2104
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/copilot/src/extension/completions-core/vscode-node/extension/src/panelShared/languages/typeScriptReact.tmLanguage.ts:juninmd-internal-hostname:2103
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/copilot/src/extension/mcp/vscode-node/mcpToolCallingLoopPrompt.tsx:juninmd-internal-hostname:194
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/copilot/src/extension/mcp/vscode-node/mcpToolCallingLoopPrompt.tsx:juninmd-internal-hostname:207
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/copilot/src/platform/github/common/githubApiFetcherService.ts:generic-api-key:376
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/copilot/src/platform/telemetry/node/azureInsights.ts:generic-api-key:14
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/copilot/src/platform/telemetry/node/azureInsights.ts:generic-api-key:15
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/git/package.json:generic-api-key:11
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/github-authentication/package.json:generic-api-key:76
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/github/package.json:generic-api-key:11
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/html-language-features/package.json:generic-api-key:8
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/javascript/syntaxes/JavaScript.tmLanguage.json:juninmd-internal-hostname:2165
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/javascript/syntaxes/JavaScriptReact.tmLanguage.json:juninmd-internal-hostname:2165
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/json-language-features/package.json:generic-api-key:8
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/markdown-language-features/package.json:generic-api-key:9
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/markdown-math/package.json:generic-api-key:9
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/media-preview/package.json:generic-api-key:13
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/merge-conflict/package.json:generic-api-key:9
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/mermaid-markdown-features/package.json:generic-api-key:12
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/microsoft-authentication/package.json:generic-api-key:132
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/simple-browser/package.json:generic-api-key:12
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/typescript-basics/syntaxes/TypeScript.tmLanguage.json:juninmd-internal-hostname:2162
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/typescript-basics/syntaxes/TypeScriptReact.tmLanguage.json:juninmd-internal-hostname:2165
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/extensions/typescript-language-features/package.json:generic-api-key:9
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/src/vs/platform/agentHost/common/state/protocol/channels-root/notifications.ts:generic-api-key:192
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/src/vs/platform/agentHost/node/agentHostMicrosoftTelemetry.ts:generic-api-key:13
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/src/vs/platform/agentHost/node/agentHostRestrictedTelemetry.ts:generic-api-key:16
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/src/vs/platform/agentHost/node/agentHostRestrictedTelemetry.ts:generic-api-key:17
+C:/Users/jr_ac/AppData/Local/Temp/opencode/fix/vscode/src/vs/platform/agentHost/node/sshRemoteAgentHostService.ts:private-key:256
